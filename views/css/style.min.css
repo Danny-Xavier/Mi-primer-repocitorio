@@ -1,0 +1,71 @@
+*{margin:0;padding:0;list-style:none;text-decoration:none}
+header{background:rgb(0, 0, 0) ;}
+body{overflow-x:hidden;font-family:"Ubuntu-Regular" }
+ul,ol{padding:0}#slide{position:relative;margin:auto;margin-bottom:-50px;overflow:hidden;background:rgb(0, 0, 0)}
+#slide ul li{float:left;width:25%;display:none}
+#slide ul li:first-child{display:block}
+#slide ul li img{width:100%}
+#slide ul li .slideCaption{position:relative;width:100%;top:-95px;text-align:center;z-index:1;color:rgb(253, 253, 253);background:rgba(0,0,0,.5)}
+.slideCaption h3{padding-top:10px}
+.slideCaption p{padding-bottom:10px}
+#indicadores{position:relative;width:100%;margin:auto;height:0;top:-90px;text-align:center}
+#indicadores li{display:inline-block;margin:0 5px;cursor:pointer;opacity:.5;color:rgb(255, 255, 255);text-shadow:0 0 5px #333}
+#indicadores li:first-child{opacity:1}
+#top { width:100%;height:auto;display: flex;flex-direction:row;justify-content: space-around;flex-flow:wrap;padding:70px}
+#top img{width:40%;}
+#top div p{padding:10px 10px;text-align: justify;font-size: 16px;font-family: Arial;}
+#articulos ul li{position:relative;padding:20px}
+#articulos ul li button{margin-top:30px}
+#videos div{padding:20px}
+footer#contactenos iframe{height:320px}
+footer#contactenos h4{line-height:30px}
+footer#contactenos ol{position:relative;list-style:none;margin:auto;width:215px;background:silver}
+footer#contactenos ol li a{float:left;width:45px;height:45px;border-radius:100%;margin:35px 10px;text-align:center;line-height:52px;background:white}
+footer#contactenos #formulario form input.boton {margin:15px 270px;float:left;width:100px;height:50px;border-radius: 20px;font-weight: bold;background:silver;opacity: 0.85 }
+footer#contactenos #formulario{background-image: url('../images/contacto2.png');width:650px;height:565px;float:left;margin:0px 10px;border-radius: 20px}
+footer#contactenos #formulario form input{margin:15px 60px;float:left;width:500px;height:30px;background-color:transparent;font-weight: bold;color:white}@media(min-width:10px){#logo img{padding:20px 30px;}
+footer#contactenos #formulario form textarea {margin:15px 60px;float:left;width:500px;height:200px;background-color:transparent;font-weight: bold;color:white}
+.jumbotronn{width:97%;height:auto;display:flex;flex-direction:row;justify-content:space-around;border-radius:15px;margin:5px 10px;color:inherit;background-color:#eee}|
+#logo img{padding:20px 30px}
+nav#botonera{margin-top:1.2%;width:60%}
+nav#botonera ul{width:100%}
+nav#botonera ul li{color:rgb(19, 17, 17);width:18%;text-align: center;margin: 3% 1%;margin:25px 1px;box-shadow: inset 340px 0 0 0 #fc06be;border-radius: 10px;}
+nav#botonera ul li a{height:45px;line-height:12px;color:rgb(255, 255, 255);font-weight:100;border-radius: 10px}
+#slide ul{position:relative;margin:auto;height:auto;width:400%}
+#slide div#slideIzq span{position:absolute;font-size:30px;color:white;top:45%;left:50px;text-shadow:0 0 10px #000;cursor:pointer}
+#slide div#slideDer span{position:absolute;font-size:30px;color:white;top:45%;right:50px;text-shadow:0 0 10px #000;cursor:pointer}
+#galeria ul li{float:left;width:20%}
+#galeria ul li img{width:100%}
+#articulos ul li img{float:left;width:30%;margin:20px 20px 20px 0}}@media(max-width:1199px) and (min-width:992px){#logo img{padding:20px 10px}
+nav#botonera{margin-top:3%;width:60%}
+nav#botonera ul{width:100%}
+nav#botonera ul li{width:18%;text-align:center;background:violet;margin:3% 1%}
+nav#botonera ul li a{height:35px;line-height:5px;color:rgb(255, 255, 255);background:violet;font-weight:100}
+#slide ul{position:relative;margin:auto;height:auto;width:400%}
+#slide div#slideIzq span{position:absolute;font-size:30px;color:white;top:40%;left:50px;text-shadow:0 0 10px #000;cursor:pointer}
+#slide div#slideDer span{position:absolute;font-size:30px;color:rgb(255, 255, 255);top:40%;right:50px;text-shadow:0 0 10px #000;cursor:pointer}
+#galeria ul li{float:left;width:20%}
+#galeria ul li img{width:100%}
+#articulos ul li img{float:left;width:35%;margin:30px 20px 20px 0}}@media(max-width:991px) and (min-width:768px){#logo img{padding:20px 3%}
+nav#botonera{margin:2% 0;width:100%}
+nav#botonera ul{width:100%}
+nav#botonera ul li{width:18%;text-align:center;background:violet;margin:0 1%}
+nav#botonera ul li a{height:35px;line-height:5px;color:rgb(252, 252, 252);background:violet;font-weight:100}
+#slide ul{position:relative;margin:auto;height:auto;width:400%}
+#slide div#slideIzq span{position:absolute;font-size:30px;color:white;top:35%;left:50px;text-shadow:0 0 10px #000;cursor:pointer}
+#slide div#slideDer span{position:absolute;font-size:30px;color:white;top:35%;right:50px;text-shadow:0 0 10px #000;cursor:pointer}
+#galeria ul li{float:left;width:20%}
+#galeria ul li img{width:100%}
+#articulos ul li img{float:left;width:40%;margin:25px 20px 20px 0}}@media(max-width:767px){#logo{background:rgb(0, 0, 0)}
+#logo img{padding:20px 20%}
+#botonera{overflow-x:hidden}
+#botonera ul li a{padding:10px 30px}
+#slide ul{position:relative;margin:auto;margin-bottom:20px;height:140px;width:400%}
+#slide div#slideIzq span{position:absolute;font-size:20px;color:rgb(255, 255, 255);top:40%;left:30px;text-shadow:0 0 10px rgb(0, 0, 0);cursor:pointer}
+#slide div#slideDer span{position:absolute;font-size:20px;color:rgb(255, 253, 253);top:40%;right:30px;text-shadow:0 0 10px rgb(0, 0, 0);cursor:pointer}
+.slideCaption{display:none}
+#indicadores{display:none}
+#galeria ul li{float:left;width:50%}
+#galeria ul li img{width:100%}
+#articulos ul li img{float:left;width:100%;margin:10px auto}
+}#scrollUp{bottom:20px;right:20px;width:50px;height:50px;border-radius:100%;background:url(../images/flecha.jpg)}
